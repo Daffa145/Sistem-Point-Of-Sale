@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+.next/
+out/
+build/
+/backend/public/build
+/backend/public/storage
+/backend/storage/*.key
+
+# Logs and Caches
+*.log
+.phpunit.result.cache
+
+# IDE and System files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
